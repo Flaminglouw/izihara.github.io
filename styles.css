@@ -20,7 +20,7 @@ body {
 
 #ishihara-image {
   width: 100%;
-  transform: rotate(-95deg);
+  transform: rotate(deg);
   opacity: 0.3;
 }
 
