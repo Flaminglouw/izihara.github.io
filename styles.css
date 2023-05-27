@@ -21,7 +21,7 @@ body {
 #ishihara-image {
   width: 100%;
   transform: rotate(-95deg);
-  /*opacity: 0.3;*/
+  opacity: 0.3;
 }
 
 #answer-container {
