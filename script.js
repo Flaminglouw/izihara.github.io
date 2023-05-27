@@ -81,8 +81,7 @@ function checkAnswer() {
     nextButton.disabled = false;
   } else {
     // Display a hint
-    hintContainer.textContent =
-      "Probeer weer of ek klap jou!Maak hom die knoppie groen";
+    hintContainer.textContent = "En nou ou seun";
   }
 }
 
