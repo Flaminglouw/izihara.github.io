@@ -18,20 +18,25 @@ body {
   text-align: center;
 }
 
+#image-container {
+  position: relative;
+}
+
 #ishihara-image {
-  width: 100%;
-  transform: rotate(deg);
-  opacity: 0.3;
+  zoom: 150%;
+  height: 150%;
+  width: 150%;
+  padding-top: 300px;
 }
 
-#answer-container {
-  margin-bottom: 20px;
+#button-container {
+  position: absolute;
+  top: 50%;
+  left: 300px;
+  transform: translate(-50%, -50%);
 }
 
-#hint-container {
-  margin-bottom: 20px;
-}
-
+#answer-container,
 #navigation-buttons {
   margin-bottom: 20px;
 }
