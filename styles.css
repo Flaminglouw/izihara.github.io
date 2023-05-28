@@ -27,6 +27,7 @@ body {
   height: 150%;
   width: 150%;
   padding-top: 300px;
+  filter: brightness(1.25);
 }
 
 #button-container {
