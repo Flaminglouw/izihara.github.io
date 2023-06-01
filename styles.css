@@ -1,58 +1,70 @@
-body {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
+/* styles.css */
 
-#fullscreen-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: #f2f2f2;
-}
-
+/* Container for the entire test */
 #test-container {
-  max-width: 800px;
-  text-align: center;
-}
-
-#image-container {
-  position: relative;
-}
-
-#ishihara-image {
-  zoom: 150%;
-  height: 150%;
-  width: 150%;
-  padding-top: 300px;
-  filter: brightness(1.25);
-}
-
-#button-container {
-  position: absolute;
-  top: 50%;
-  left: 300px;
-  transform: translate(-50%, -50%);
-}
-
-#answer-container,
-#navigation-buttons {
-  margin-bottom: 20px;
-}
-
-#next-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-#next-button:disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
-}
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  /* Image container */
+  #image-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Plate number display */
+  #plate-number {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Answer input field */
+  #answer {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  /* Hint text */
+  #hint {
+    font-size: 14px;
+    color: #ff0000;
+    margin-bottom: 10px;
+  }
+  
+  /* Next button */
+  #next-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Result display */
+  #result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Timer display */
+  #timer {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Error message for invalid answer */
+  #error-message {
+    font-size: 14px;
+    color: #ff0000;
+    margin-top: 10px;
+  }
+  
+  

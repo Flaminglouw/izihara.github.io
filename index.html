@@ -12,7 +12,13 @@
 <body>
     <div id="fullscreen-container">
         <div id="test-container">
-            <img id="ishihara-image" src="" alt="Ishihara Plate">
+            <div id="plate-info">
+                <p id="plate-number"></p>
+                <p id="timer"></p>
+            </div>
+            <div id="image-container">
+                <img id="ishihara-image" src="" alt="Ishihara Plate">
+            </div>
             <div id="button-container">
                 <div id="answer-container">
                     <label for="answer">SÊ vir Ouboet wat sien jy:</label>
@@ -23,14 +29,12 @@
                     <button id="next-button" disabled>Volgende ene,lekker!</button>
                 </div>
             </div>
-
             <div id="hint-container">
                 <p id="hint"></p>
             </div>
-            <div id="navigation-buttons">
-                <button id="next-button" disabled>Volgende ene,lekker!</button>
+            <div id="result-container" class="center-container">
+                <p id="result"></p>
             </div>
         </div>
     </div>
-
 </html>
